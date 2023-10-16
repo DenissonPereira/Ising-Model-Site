@@ -84,63 +84,84 @@ nav a:hover {
     display: block;
     margin: auto;
     width: 30vw;
+    transition: 0.5s;
 }
 .img1 img:hover {
+    transition: 1s;
     width: 40vw;
     box-shadow: 15px 15px 15px black;
+    cursor: pointer;
 }
 
 .img2 img {
+    transition: 0.5s;
     display: block;
     margin: auto;
     width: 30vw;
 }
 .img2 img:hover {
+    transition: 1s;
     width: 45vw;
     box-shadow: 15px 15px 15px black;
+    cursor: pointer;
 }
 .img3 img {
+    transition: 0.5s;
     display: block;
     margin: auto;
     width: 30vw;
 }
 .img3 img:hover {
+    transition: 1s;
     width: 45vw;
     box-shadow: 15px 15px 15px black;
+    cursor: pointer;
 }
 .img4 img {
+    transition: 0.5s;
     display: block;
     margin: auto;
     width: 30vw;
 }
 .img4 img:hover {
+    transition: 1s;
     width: 45vw;
     box-shadow: 15px 15px 15px black;
+    cursor: pointer;
 }
 .img5 img {
+    transition: 0.5s;
     display: block;
     margin: auto;
     width: 30vw;
 }
 .img5 img:hover {
+    transition: 1s;
     width: 45vw;
     box-shadow: 15px 15px 15px black;
+    cursor: pointer;
 }
 .img6 img {
+    transition: 0.5s;
     display: block;
     margin: auto;
     width: 30vw;
 }
 .img6 img:hover {
+    transition: 1s;
     width: 45vw;
     box-shadow: 15px 15px 15px black;
+    cursor: pointer;
 }
 .img7 img {
     display: block;
     margin: auto;
     width: 30vw;
+    transition: 0.5s;
 }
 .img7 img:hover {
+    transition: 1.0s;
+    cursor: pointer;
     width: 45vw;
     box-shadow: 15px 15px 15px black;
 }
