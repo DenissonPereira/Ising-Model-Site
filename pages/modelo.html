@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/modelo.css">
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>  
+</head>
+<body>
+    <div class="principal">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./modelo.html" class="modelo">O Modelo</a></li>
+                    <li><a href="/index.html" class="resultados">Resultados</a></li>
+                    <li><a href="./galeria.html">Galeria</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="corpo">
+            <p>
+                O Modelo de Ising, nomeado após o físico Ernst Ising, desempenha um papel crucial na física estatística e na teoria do magnetismo, representando o comportamento magnético de sistemas de spins, como ímãs. Sua importância é inquestionável devido à capacidade de capturar fenômenos desafiadores, especialmente em transições de fase, e sua aplicabilidade em várias disciplinas, desde a termodinâmica até a modelagem de sistemas intricados. A análise de sistemas com muitos spins revela sua complexidade, exigindo métodos computacionais avançados e técnicas estatísticas para desvendar propriedades emergentes, tornando-o uma ferramenta valiosa para pesquisadores interdisciplinares em busca de compreender fenômenos coletivos e avanços nas ciências físicas e além.
+            </p>
+            <p>
+                O hamiltoniano é dado por:
+                \[H = -J\sum_{i,j}^{N}S_{i}S{j}-B\sum_{i}^{N}S_{i},\]
+                onde J é o acoplamento entre spins, que mede o quão fortemente eles influenciam uns aos outros e o segundo termo reflete a resposta dos spins a um campo magnético externo B. 
+            </p>
+            <p>
+                Com o hamiltoniano, obtemos a função de partição, que é essencialmente uma soma de estados representada por:
+                \[Z = \sum_{states}\exp(-\beta H). \]
+            </p>
+            <p>
+                Assim, 
+                \[Z = \sum_{\sigma_{1},\sigma_{2},...,\sigma_{N}} \prod_{i=1}^{N}T(\sigma_{i}, \sigma_{i+1}).\]
+            </p>
+            <p>
+                A função de partição desempenha um papel fundamental na termodinâmica e na mecânica estatística, permitindo a derivação e a determinação de várias grandezas termodinâmicas essenciais para compreender uma ampla gama de fenômenos físicos e químicos. Com base na função de partição, é possível calcular propriedades como energia livre, entropia, calor específico e magnetização, fornecendo insights cruciais em sistemas que variam desde substâncias simples até complexos sistemas quânticos. Essas grandezas termodinâmicas são aplicáveis em diversas áreas, incluindo <strong>física</strong>, <strong>química</strong>, <strong>engenharia</strong>, <strong>ciências dos materiais</strong> e também desempenham um papel fundamental na modelagem de <strong>sistemas econômicos</strong>, contribuindo para a compreensão e previsão de comportamentos termodinâmicos e econômicos em uma variedade de cenários.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

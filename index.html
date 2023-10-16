@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/pag1.css">
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>  
+</head>
+<body>
+    <div class="principal">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./pages/modelo.html">O Modelo</a></li>
+                    <li><a href="./index.html" class="resultados">Resultados</a></li>
+                    <li><a href="./pages/galeria.html">Galeria</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="corpo">
+           <div class="inicio">
+               <p>
+                <strong>Linguagem: </strong>Python; <br>
+                <strong>Bibliotecas utilizadas:</strong> Sympy, Numpy e Matplotlib; <br>
+                <strong>Spin: </strong>1/2. <br>
+               </p>
+           </div>
+           <br>
+           <br>
+           <p>
+            Utilizando as matrizes de Pauli para um sistema de spin-1/2, foi calculado o produto de Kronecker para obter o hamiltoniano e, a partir dele, a função de partição, o que permitiu obter:
+           </p>
+           <br>
+           <h2>&bull; Energia Livre de Helmholtz: </h2>
+           <p>
+            \[ f(T) = -T \ln\left(2 \cosh\left(\frac{1}{T}\right)\right) \]
+           </p>
+           <h2>&bull; Energia Livre</h2>
+           <p>
+            \[ u(T) = -\tanh\left(\frac{1}{T}\right)  \]
+           </p>
+           <h2>&bull; Calor Específico</h2>
+           <p>
+            \[ c(T) = \frac{1}{T^{2}} \operatorname{sech} \left( \frac{1}{T} \right)^{2} \]
+           </p>
+           <h2>&bull; Entropia</h2>
+           <p>
+            \[ s(T) = -T \ln\left(2 \cosh\left(\frac{1}{T}\right)\right) - \frac{1}{T} \tanh\left( \frac{1}{T} \right) \]
+           </p>
+           <p>
+            Utilizando o Matplotlib, foram gerados gráficos para as grandezas mencionadas. A figura resultante é exibida abaixo:
+           </p>
+            <img src="./image/graf.png" class="img_graf">
+            <p>
+                Para visualizar o código, clique abaixo para acessar o meu repositório no GitHub.
+            </p>
+            <div>
+                <a href="https://github.com/DenissonPereira/Ising-Model-Spin-1-2-without-field" target="_blank">
+                    <img src="./image/png-transparent-github-logo-social-coding-brand-developer-git-website-thumbnail.png" alt="GitHub" class="git">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
