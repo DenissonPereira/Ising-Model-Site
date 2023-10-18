@@ -113,3 +113,7 @@ nav a:hover {
 .inicio p {
     text-indent: 0vw;
 }
+
+div footer {
+    text-align: center;
+}
